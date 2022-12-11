@@ -1,0 +1,30 @@
+REST API - Node.js, mongoDB & JWT Project
+
+||
+ \
+-- create a folder, cd into the folder and run
+npm init to get starting create node project
+
+-- continue to press enter key till all process is done.
+
+-- install other packages
+npm install --save express mongoose
+
+npm install --save-dev nodemon
+npm install --save body-parser
+
+npm install --save bcryptjs
+
+npm install --save jsonwebtoken
+
+-- Start working with the note creation
+
+-- create a frontend application to communicate with your
+backend
+
+-- install cors for enabling frontend to access backend
+from different server/port/ IP location
+
+npm install --save cors
+
+after installation, update your app.js file
