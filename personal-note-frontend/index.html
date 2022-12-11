@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Front End</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+
+    <script src="" async defer></script>
+    <script>
+        fetch('http://localhost:3300/api/notes', {
+            headers: {
+                'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOTVkZDM4YTQ1YzY3MjU3NmZlN2YxYSIsImVtYWlsIjoibW9yZUBnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJNb3JlICIsImxhc3RuYW1lIjoiUGVycnkiLCJpYXQiOjE2NzA3NzM4MDcsImV4cCI6MTY3MDc3NzQwN30.ZMWcdxblB2Bi3B5KxY6udwa8mL5p6dJXHlZA66sG44c'
+            }
+        }).then((res) => res.json(res))
+            .then((res) => console.log(res))
+            .catch((err) => console.log(err));
+    </script>
+</body>
+
+</html>
